@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;	
+	}
+
+
+body {
+	margin: 0;
+	padding: 0;	
+}	
+h1 {
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 1.75em;
+}
+section {
+    background-color: green;
+    border: 1px solid black;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+section h2 {
+	border-left: 1px solid black; 
+	border-bottom: 1px solid black; 
+	float: right;
+	width: 40%;
+	text-align: center;
+	color: black;
+	margin: 0px 0px 10px 0px;
+	}
+
+section p {
+    padding: 0 6px 4px 6px;
+    clear: right;
+}
+
+#rae h2 {
+    background-color: #FFFF00;
+    color: black;
+}
+
+#deck h2 {
+    background-color: #FFB6C1;
+    color: black;
+}
+
+#meth h2 {
+    background-color: #56A5EC;
+    color: black;
+}
+/* desktop view */
+@media (min-width: 992px) {
+section {
+	float: left;
+	margin: 5px;
+	height: 150px;
+	font-family: Helvetica;
+	color: white;
+	width: 32%;
+}	
+
+#rae {
+	margin-left: 5px;
+}
+
+}
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+section {
+	float: left;
+	margin: 5px;
+	height: 150px;
+	font-family: Helvetica;
+	color: white;
+	width: 48%;
+}	
+
+#rae {
+	margin-left: 5px;
+}
+#meth {
+	clear: left;
+	margin-left: 5px;
+	width: 97%; 
+}
+
+#meth h2 {
+	margin:  0 0 0 80%;
+	width: 20%;
+}
+
+}
+/* mobile view */
+@media (max-width: 767px) {
+	    section {
+        margin: 5px;
+        width: 97%;
+        font-family: Helvetica;
+		color: white;
+    }
+}
